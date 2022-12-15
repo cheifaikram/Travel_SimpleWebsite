@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script src="https://kit.fontawesome.com/a7b822cf68.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
+
+    <title>Website design</title>
+</head>
+<body>
+    <!-- nav bar-->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE </h1>
+        <ul class="nav-links">
+            <li class="active"> <a href="#"> </a>Home </li>
+            <li> <a href="#"> </a>Tours </li>
+            <li> <a href="#"> </a>Explore </li>
+            <li> <a href="#"> </a>About </li>
+            <li> <a class="ctn" href="#"> Connect </a> </li>    
+        </ul>
+        <img src="images/menu_btn.png" alt="nn" class="menu-btn">
+        
+
+    </nav>
+
+<header>
+    <div class="header-content"> 
+        <h2> Explore The Colorful World</h2>
+        <div class="line"> </div>
+        <h1> A Wonderful Gift </h1>
+        <a href="" class="ctn">Learn More</a>
+    </div>
+</header>
+
+<!--EVENTS-->
+<section class="events">
+    <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img class="img" src="images/sahara_event.jpg" alt="sahara evnt">
+            <h4> Camel Riding In Sahara Desert </h4>
+            <p>Riding through the desert on a camel is incredible. You feel like a Bedouin or a Nomad. </p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+
+        <div class="col">
+            <img class="img" src="images/swim_event.jpg" alt="sahara evnt">
+            <h4> Swimming With Dolphins </h4>
+            <p>Sharing space with these magnificent creatures can be quite exhilarating, to say the least.
+                since they give rubs, kisses, and handshakes.
+            </p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<!--EXPLORE-->
+<section class="explore">
+    <div class="explore-content">
+        <h1> EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ratione sunt provident in dolorem sequi nemo voluptates commodi, quod, modi repellat, ullam voluptate nisi! Accusantium.</p>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+</section>
+
+<!--TOURS-->
+<section class="tours">
+    <div class="row">
+        <div class="col content-col">
+            <h1> UPCOMING TOURS & DESTINATIONS!</h1>
+            <div class="line"></div>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ratione sunt provident in dolorem sequi nemo voluptates commodi, quod, modi repellat, ullam voluptate nisi! Accusantium.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+
+        <div class="col image-col">
+            <div class="image-galery">
+                <img src="images/img1.jpg" alt="hey">
+                <img src="images/img2.jpg" alt="hey">
+                <img src="images/img3.jpg" alt="hey">
+                <img src="images/img4.jpg" alt="hey">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER-->
+
+<section class="footer">
+    <p> 221B Baker Street, London, ENGLAND | phone: 555-444-333 | email:sherlockholmes@example.com </p>
+</section>
+
+<script>
+    const menubtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menubtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+})
+</script> 
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

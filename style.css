@@ -7,6 +7,7 @@
 body, html{
     overflow-x: hidden;
 }
+
 a{
     text-decoration: none;
 }
@@ -239,7 +240,6 @@ p{
     margin: 20px auto;
 }
 
-
 /* MOBILE */
 @media only screen and (max-width:700px) {
     .menu-btn{
@@ -330,6 +330,7 @@ p{
 }
 
 /* ANIMATION */
+
 img{
     transition: transform .3s ease;
 }

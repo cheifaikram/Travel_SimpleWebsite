@@ -2,7 +2,7 @@
 <h2>Screenshots</h2>
 <h3>1- DESKTOP</h3>
 <IMG SRC="images/desktop_screenshot.png" style="width="520" height="340">
-<h3>2- GIF</h3>
+<h3>2- MOBILE</h3>
 <IMG SRC="images/mobile_screenshot.png" style="width="520" height="340">
 <h2> live demo </h2>
 <ul>

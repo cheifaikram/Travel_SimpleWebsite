@@ -103,8 +103,7 @@ header{
     padding: 8px 15px;
     background: var(--secondary-color);
     border-radius: 30px;
-    color: var(--none-changing-color);
-
+    color: var(--none-changing-color);       
 }
 
 .menu-btn{
@@ -216,7 +215,19 @@ p{
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
+    animation: productAnimation 3s linear infinite;
 }
+
+@keyframes productAnimation {
+    0%,
+    100% {
+      transform: translateY(15px);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+}
+
 
 .image-galery img {
     width: 250px;
